@@ -20,7 +20,9 @@ def run():
     # # for key,value in super_dict.items():
     # #     print(key, "-", value)
     
-    for item in  super_list:
+    #* Reto List Comprehensions
+    
+    for item in super_list:
         print(item ["firstname"], ",", item ["lastname"])
 
 

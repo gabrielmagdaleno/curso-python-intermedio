@@ -16,7 +16,7 @@
 # Reto de la clase de
 def run():
     
-    my_dict = {i: i**0.5 for i in range(1, 1001)}
+    my_dict = {i: round (i**0.5, 3) for i in range(1, 1001)}
 
     print(my_dict)
         
